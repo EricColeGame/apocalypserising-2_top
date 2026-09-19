@@ -1,11 +1,28 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import { routing, type Locale } from "@/i18n/routing";
 
-export default function CopyrightPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+  const languages = Object.fromEntries(routing.locales.map((l) => [l, `/${l}/copyright`]));
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/copyright`, languages },
+  };
+}
+
+export default async function CopyrightPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+
   return (
-    <LegalPage title="Copyright">
-      <p>Apocalypse Rising 2, Roblox, and all related names, logos, artwork, and media belong to their respective owners.</p>
-      <p>This site is a non-official fan wiki built for guide and reference purposes. It is not affiliated with, endorsed by, or sponsored by the developers of Apocalypse Rising 2 or Roblox Corporation.</p>
-      <p>If you own rights to content displayed here and have a concern, please contact the site operator for review.</p>
+    <LegalPage title={t("title")}>
+      <p>{t("p1")}</p>
+      <p>{t("p2")}</p>
+      <p>{t("p3")}</p>
     </LegalPage>
   );
 }

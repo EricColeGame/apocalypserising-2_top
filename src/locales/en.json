@@ -505,7 +505,51 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "codeComingSoon": "COMING-SOON",
+    "noActiveCodes": "No active codes currently available",
+    "codeStayTuned": "STAY-TUNED",
+    "checkBackSoon": "Check back soon for new codes"
+  },
+  "notFound": {
+    "metaTitle": "Page Not Found",
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "browseGuides": "Browse Guides"
+  },
+  "legal": {
+    "about": {
+      "title": "About",
+      "metaTitle": "About - Apocalypse Rising 2 Wiki",
+      "metaDescription": "About the Apocalypse Rising 2 Wiki: an independent fan-built guide hub covering weapons, maps, loot routes and survival tactics.",
+      "p1": "{site} is an independent fan-built guide hub covering weapons, maps, loot routes, survival tactics, and essential game knowledge for new and veteran Apocalypse Rising 2 survivors alike.",
+      "p2": "Apocalypse Rising 2 is an open-world zombie survival shooter on Roblox developed by Dualpoint Interactive. Players explore a zombie-filled island, collect weapons, fight other players, manage resources, and try to stay alive.",
+      "p3": "All guides on this site are written and maintained by the community. We are not affiliated with Roblox Corporation or the developers of Apocalypse Rising 2. Questions or corrections can be sent to {email}."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "metaTitle": "Copyright - Apocalypse Rising 2 Wiki",
+      "metaDescription": "Copyright and attribution notice for the Apocalypse Rising 2 Wiki fan guide site.",
+      "p1": "Apocalypse Rising 2, Roblox, and all related names, logos, artwork, and media belong to their respective owners.",
+      "p2": "This site is a non-official fan wiki built for guide and reference purposes. It is not affiliated with, endorsed by, or sponsored by the developers of Apocalypse Rising 2 or Roblox Corporation.",
+      "p3": "If you own rights to content displayed here and have a concern, please contact the site operator for review."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaTitle": "Privacy Policy - Apocalypse Rising 2 Wiki",
+      "metaDescription": "How the Apocalypse Rising 2 Wiki handles analytics, advertising and technical information.",
+      "p1": "This fan wiki ({url}) provides informational game guides for Apocalypse Rising 2 on Roblox. We do not request account credentials, Roblox passwords, or private payment information.",
+      "p2": "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+      "p3": "External links may lead to Roblox, Reddit, YouTube, or community tools. Those services are governed by their own privacy policies."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "metaTitle": "Terms of Service - Apocalypse Rising 2 Wiki",
+      "metaDescription": "Terms of service for using the Apocalypse Rising 2 Wiki fan guide site.",
+      "p1": "This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.",
+      "p2": "Game systems, weapons, loot tables, and update details may change without notice. Always verify important information in-game or through official channels.",
+      "p3": "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Dualpoint Interactive or Roblox property."
+    }
   },
   "footer": {
     "aboutTitle": "Apocalypse Rising 2 Wiki",

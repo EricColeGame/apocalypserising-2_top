@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
@@ -22,10 +22,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
+  // 站点级 title/description 必须随语言变化，否则 es/pt/de 的每个页面
+  // 都会输出英文 title，H1 与 <title> 语义不一致。
+  const t = await getTranslations({ locale, namespace: "home.meta" });
+  const languages = Object.fromEntries(routing.locales.map((l) => [l, `/${l}`]));
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Apocalypse Rising 2 Wiki - Codes, Weapons & Maps", template: "%s" },
-    description: "Complete Apocalypse Rising 2 Wiki covering weapons, maps, survival guides, codes, updates, gameplay tips and everything Roblox players need to survive.",
+    title: { default: t("title"), template: "%s" },
+    description: t("description"),
+    alternates: { canonical: `/${locale}`, languages },
     applicationName: siteConfig.name,
     manifest: "/manifest.json",
     icons: {

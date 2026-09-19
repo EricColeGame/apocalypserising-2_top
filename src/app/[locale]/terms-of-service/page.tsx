@@ -1,11 +1,28 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import { routing, type Locale } from "@/i18n/routing";
 
-export default function TermsOfServicePage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.terms" });
+  const languages = Object.fromEntries(routing.locales.map((l) => [l, `/${l}/terms-of-service`]));
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/terms-of-service`, languages },
+  };
+}
+
+export default async function TermsOfServicePage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.terms" });
+
   return (
-    <LegalPage title="Terms of Service">
-      <p>This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.</p>
-      <p>Game systems, weapons, loot tables, and update details may change without notice. Always verify important information in-game or through official channels.</p>
-      <p>By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Dualpoint Interactive or Roblox property.</p>
+    <LegalPage title={t("title")}>
+      <p>{t("p1")}</p>
+      <p>{t("p2")}</p>
+      <p>{t("p3")}</p>
     </LegalPage>
   );
 }
