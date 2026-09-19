@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Everything a fresh spawn needs: survival bars, your first melee weapon, backpack upgrades and how to survive the first ten minutes on the archipelago."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Loot Spots",
+          "description": "Where the military crates actually are. Naval Air Station, Regional Airport and Fort Halsey hold the best gear, plus safer routes for solo survivors."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Weapons",
+          "description": "The FAL, M14 EBR, MP5K and more ranked by time-to-kill, recoil and ammo availability, so you know what to pick up and what to leave behind."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Apocalypse Rising 2."
+          "title": "All Codes",
+          "description": "The verified status of Apocalypse Rising 2 codes, why the game has no redemption box, and how to spot scam pages promising free military gear."
         }
       ]
     },
@@ -66,73 +66,73 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Weapon Tier List",
+        "Loot Locations",
+        "Vehicle Guide",
+        "All Codes"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Survival bars, your first melee weapon, backpack upgrades and the first ten minutes on the archipelago.",
+          "href": "/guide/apocalypse-rising-2-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "All Codes",
+          "description": "Verified code status, why no redemption box exists and how to avoid scam pages.",
+          "href": "/codes/apocalypse-rising-2-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Gun Tier List",
+          "description": "Every firearm ranked S to D by time-to-kill, recoil, ammo availability and attachment support.",
+          "href": "/combat/apocalypse-rising-2-gun-tier-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Best Loot Locations",
+          "description": "Naval Air Station, Regional Airport and Fort Halsey ranked by loot tier and player contest level.",
+          "href": "/maps/apocalypse-rising-2-loot-locations"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Vehicle Guide",
+          "description": "Sedans, pickups, heavy trucks and boats, plus the repair parts and fuel routes that keep them moving.",
+          "href": "/mechanics/apocalypse-rising-2-vehicles"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Cosmetics & Rarity",
+          "description": "Common to very rare outfits, event gear and the POIs with the best cosmetic drop rates.",
+          "href": "/items/apocalypse-rising-2-cosmetics"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Controls & Keybinds",
+          "description": "Default movement, combat, inventory and vehicle keybinds for PC survivors.",
+          "href": "/controls/apocalypse-rising-2-keybinds"
+        },
+        {
+          "badge": "Popular",
+          "title": "Base Building",
+          "description": "Best base locations, defensive layouts, choke points and how to survive a raid.",
+          "href": "/mechanics/apocalypse-rising-2-base-building"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Weapon Attachments",
+          "description": "Muzzle devices, grips, optics and lasers, plus where to farm high-tier attachments.",
+          "href": "/items/apocalypse-rising-2-attachments"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Apocalypse Rising 2?",
       "paragraphs": [
-        "Apocalypse Rising 2 is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Apocalypse Rising 2 is an open-world zombie survival shooter on Roblox from Dualpoint Interactive. You spawn on the coast of a large archipelago with almost nothing, then loot towns, military bases and crash sites for weapons, ammo, food, medical supplies and vehicle parts while the Infected and other players hunt you across the map.",
+        "There is no level cap and no class system to grind through. Progression is entirely gear-driven: a better rifle, a larger backpack, a working car and a stocked medkit are what keep a run alive. Our Apocalypse Rising 2 wiki covers every system, from loot tier lists and gun rankings to base building, vehicles and the random events that hand out the rarest loot on the map."
       ],
       "stats": [
         {
@@ -145,186 +145,301 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Open World Survival Shooter"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "186M+"
         },
         {
           "label": "Favorites",
-          "value": "243K+"
+          "value": "985K+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Weapons",
+          "value": "100+"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Cosmetics",
+          "value": "1,000+"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Apocalypse Rising 2 Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Every Apocalypse Rising 2 system in one place: loot routes and tier lists, gun rankings, map knowledge, vehicles, cosmetics and the current status of codes.",
       "modules": [
         {
           "order": 1,
-          "name": "Apocalypse Rising 2 Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/apocalypse-rising-2-codes",
-          "displayType": "code-box",
+          "name": "Apocalypse Rising 2 Beginner Guide",
+          "description": "A first-run walkthrough for fresh spawns: survival bars, the ten-minute checklist, loot tiering and how to win early fights against the Infected.",
+          "href": "/guide/apocalypse-rising-2-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Scout the horizon from high ground, lighthouses and hills for smoke trails, player silhouettes and boat spawns"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Secure a melee weapon from barns, tool sheds and garages before you make any noise"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Upgrade your backpack in residential homes and small camps so you can carry more loot"
+            },
+            {
+              "label": "4",
+              "detail": "Pick up a basic firearm from police cruisers and residential closets for emergency ranged defense"
+            },
+            {
+              "label": "5",
+              "detail": "Stock bandages, gauze and health tonics from bathrooms, clinics and ambulances"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/apocalypse-rising-2-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Apocalypse Rising 2 Weapons Guide",
+          "description": "Firearms, melee weapons and attachments compared by time-to-kill, recoil, ammo availability and attachment support.",
+          "href": "/combat/apocalypse-rising-2-best-weapons",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Rifles",
+              "detail": "The M4A1, AK-47 and FAL rule mid-range fights when you can feed them 5.56mm or 7.62mm ammo"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "SMGs",
+              "detail": "The MP5 and MP5K deliver near-zero horizontal recoil for clearing buildings fast"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Shotguns",
+              "detail": "SPAS-12 and 12-gauge pumps win indoor point defense against armored players"
+            },
+            {
+              "label": "Snipers",
+              "detail": "The L96A1 and Mini-14 punish anyone crossing open runways and fields"
+            },
+            {
+              "label": "Melee",
+              "detail": "Crowbars, fire axes and combat knives clear the Infected without giving away your position"
+            },
+            {
+              "label": "Muzzle",
+              "detail": "Suppressors, compensators and muzzle brakes are the cheapest recoil and stealth upgrade"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/apocalypse-rising-2-tier-list",
-          "displayType": "tier-grid",
+          "name": "Apocalypse Rising 2 Map Guide",
+          "description": "The archipelago broken down by region, loot tier, risk level and the transit corridors that connect them.",
+          "href": "/maps/apocalypse-rising-2-map",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Ashland",
+              "detail": "Ashland Commercial Center spawns special forces gear and 7.62 rifles, and draws the heaviest PvP"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Airport",
+              "detail": "Regional Airport holds aviation gear and high-tier backpacks along wide open runways"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Naval Base",
+              "detail": "Naval Air Station is the crown jewel for heavy armor, snipers and military crates"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Mackinaw",
+              "detail": "Mackinaw Fort offers mid-tier military and utility spawns at a calmer contest level"
+            },
+            {
+              "label": "Beaufort",
+              "detail": "Beaufort townships are reliable for food, civilian ammo and backpack upgrades"
+            },
+            {
+              "label": "Docks",
+              "detail": "Coastal docks provide boat spawns, repair kits and fuel for island rotations"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/apocalypse-rising-2-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Apocalypse Rising 2 Loot Guide",
+          "description": "Loot locations ranked from S to C by gear tier, crate density and how often other players contest them.",
+          "href": "/maps/apocalypse-rising-2-loot-locations",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Naval Air Station, Regional Airport and Fort Halsey - high-end military gear, 5.56 and 7.62 ammo, snipers"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Beaufort, Ashland and Mackinaw Military Encampment - assault rifles, shotguns, police gear and medical supplies"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Coastal docks, logging camp and fairgrounds - industrial loot, hunting rifles and light consumables"
+            },
+            {
+              "label": "C",
+              "detail": "Scattered farmsteads, coastal cabins and gas stations - basic pistols, civilian clothes and canned food"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/apocalypse-rising-2-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Apocalypse Rising 2 Vehicles Guide",
+          "description": "Every vehicle class compared by passenger capacity, armor, off-road handling and the parts needed to keep it running.",
+          "href": "/mechanics/apocalypse-rising-2-vehicles",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Sedans",
+              "detail": "Fast scout runs for 2 to 4 players, but fragile frames and exposed passenger hitboxes"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Pickups",
+              "detail": "Pickups and utility vehicles balance moderate armor with good off-road travel"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Trucks",
+              "detail": "Heavy trucks and vans carry 4 to 6+ players and soak repeated rifle fire"
+            },
+            {
+              "label": "Military",
+              "detail": "Military transports offer very high armor and the best off-road handling in the game"
+            },
+            {
+              "label": "Boats",
+              "detail": "Watercraft and jetskis move 1 to 4 players between islands without swimming"
+            },
+            {
+              "label": "Repairs",
+              "detail": "Carry vehicle toolkits, jerry cans and spare parts or your ride stays where you found it"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/apocalypse-rising-2-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Apocalypse Rising 2 Cosmetics Guide",
+          "description": "Outfit rarity tiers, where each tier spawns, and the farming routes that produce the rarest cosmetics.",
+          "href": "/items/apocalypse-rising-2-cosmetics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Common",
+              "detail": "Flannel shirts, denim jeans and basic tees spawn in residential homes and cabins"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Uncommon",
+              "detail": "Police, paramedic and security guard outfits come from stations, clinics and checkpoints"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Rare",
+              "detail": "Woodland BDU, desert camo and pilot flight suits drop at airfields and radar sites"
+            },
+            {
+              "label": "Very Rare",
+              "detail": "Special ops blackout, smuggler attire and ghillie pieces come from naval bases and elite Infected"
+            },
+            {
+              "label": "Event",
+              "detail": "Infected boss variants and seasonal holiday gear only appear at limited-time POIs"
+            },
+            {
+              "label": "Routes",
+              "detail": "Farm locker-heavy POIs and stealth-kill unique Infected for the highest cosmetic drop rates"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Apocalypse Rising 2 Updates",
+          "description": "Official milestones and patch notes, from the free-to-play alpha release through the beta map overhaul to the current build.",
+          "href": "/community/apocalypse-rising-2-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Alpha",
+              "detail": "The free-to-play release added roughly 30 random events, 15 special firearms and the cosmetic color UI"
+            },
+            {
+              "label": "Beta",
+              "detail": "The beta map overhaul introduced over 20 new locations and reworked 18 classic landmarks"
+            },
+            {
+              "label": "Mobile",
+              "detail": "Full mobile controls arrived with the platform expansion and reshaped cross-play balance"
+            },
+            {
+              "label": "Events",
+              "detail": "Helicopter crash sites and roving random events now hand out the rarest weapon drops"
+            },
+            {
+              "label": "Infected",
+              "detail": "Dynamic zombie variants and boss Infected arrived in the modern polish cycle"
+            },
+            {
+              "label": "Gunplay",
+              "detail": "Enhanced ballistic drop and inventory optimizations now reward precision marksmanship"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Apocalypse Rising 2 Codes",
+          "description": "The verified status of redeemable rewards, how a future redemption system would work and how to avoid scam pages.",
+          "href": "/codes/apocalypse-rising-2-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "NONE ACTIVE",
+              "detail": "No redeemable promo codes are currently issued for Apocalypse Rising 2",
+              "badge": "Verified"
+            },
+            {
+              "label": "NO CONSOLE",
+              "detail": "The game ships with no promo code box in its settings or inventory menus"
+            },
+            {
+              "label": "VANITY ONLY",
+              "detail": "If codes ever arrive they would grant cosmetics such as skins, hats or vests rather than combat gear"
+            },
+            {
+              "label": "SCAM ALERT",
+              "detail": "Pages promising secret codes for military rifles or backpacks are clickbait or phishing"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Apocalypse Rising 2.",
+      "title": "Apocalypse Rising 2 FAQ",
+      "description": "Quick answers about codes, weapons, loot routes and survival in Apocalypse Rising 2.",
       "items": [
         {
           "question": "What is Apocalypse Rising 2?",
-          "answer": "Apocalypse Rising 2 is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Apocalypse Rising 2 is a free open-world zombie survival shooter on Roblox from Dualpoint Interactive. You loot an archipelago for weapons, food and medical supplies, fight off the Infected and other players, and keep whatever you can carry out."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Does Apocalypse Rising 2 have working codes?",
+          "answer": "No. Apocalypse Rising 2 currently has no active promo codes and the game ships with no code redemption box. Any site promising free military gear for a code is running clickbait or a phishing scam."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Where is the best loot in Apocalypse Rising 2?",
+          "answer": "Naval Air Station, Regional Airport and Fort Halsey spawn the highest-tier military weapons and armor in Apocalypse Rising 2, but they are also the most contested. Beaufort, Ashland and Mackinaw are calmer mid-tier alternatives."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What are the best weapons in Apocalypse Rising 2?",
+          "answer": "The FAL, M14 EBR and L96A1 top most Apocalypse Rising 2 tier lists for range, while the Patriot, MP5K and Ots-14 Groza dominate close quarters. All of them depend on scarce 7.62mm and 5.56mm ammunition."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do you get vehicles in Apocalypse Rising 2?",
+          "answer": "Cars and boats spawn across the Apocalypse Rising 2 archipelago. Most need fuel, a vehicle toolkit and spare parts before they will run, so carry a jerry can and a repair kit on every long rotation."
         }
       ]
     },
