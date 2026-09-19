@@ -34,6 +34,7 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/results?search_query=Apocalypse+Rising+2+Roblox+Trailer",
     reddit: "https://www.reddit.com/search/?q=Apocalypse%20Rising%202",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 语言集合的唯一真相源在 src/i18n/routing.ts，此处必须与其保持一致
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };

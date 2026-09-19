@@ -1,14 +1,16 @@
-import { BookOpen, Code2, Flame, Map, Swords, Trophy, Users, Zap } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-export const NAVIGATION_CONFIG = [
-  { key: "races", path: "/races", icon: Users, isContentType: true },
-  { key: "bosses", path: "/bosses", icon: Swords, isContentType: true },
-  { key: "guides", path: "/guide", icon: BookOpen, isContentType: true },
-  { key: "codes", path: "/codes", icon: Code2, isContentType: true },
-  { key: "tierList", path: "/tier-list", icon: Trophy, isContentType: true },
-  { key: "maps", path: "/maps", icon: Map, isContentType: true },
-  { key: "skills", path: "/skills", icon: Flame, isContentType: true },
-  { key: "updates", path: "/updates", icon: Zap, isContentType: false },
-] as const;
+export interface NavigationItem {
+  key: string;
+  path: string;
+  icon: LucideIcon;
+  isContentType: boolean;
+}
+
+/**
+ * 导航配置。当前站点尚未生成任何内容，暂为空数组——
+ * 待内容类型确定后再按实际目录重建（key 需同时存在于 en.json 的 nav 命名空间）。
+ */
+export const NAVIGATION_CONFIG = [] as NavigationItem[];
 
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map((item) => item.path.replace(/^\//, ""));
