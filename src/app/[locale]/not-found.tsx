@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { routing } from "@/i18n/routing";
 
 export default function NotFoundPage() {
   return (
@@ -7,7 +8,7 @@ export default function NotFoundPage() {
       <div className="rounded-3xl border border-border bg-card/70 p-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-foreground">Page not found</h1>
         <p className="mt-4 text-muted-foreground">The guide you are looking for may have moved or has not been added yet.</p>
-        <Button asChild className="mt-6"><Link href="/en/bosses">Browse Boss Guides</Link></Button>
+        <Button asChild className="mt-6"><Link href={`/${routing.defaultLocale}/guide`}>Browse Guides</Link></Button>
       </div>
     </main>
   );

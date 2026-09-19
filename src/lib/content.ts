@@ -235,41 +235,73 @@ export interface NavGroup {
   links: Array<{ label: string; href: string; badge?: string }>;
 }
 
-// 分组标题映射：slug → 人类可读标题（默认英文）
+// 分组标题映射：slug → 人类可读标题（英文默认）
+// slug 必须与 NAVIGATION_CONFIG 的 path 及 content/<locale>/ 下的分类目录一一对应
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  combat: "Weapons & Combat",
+  maps: "Maps & Loot",
+  items: "Items & Gear",
+  mechanics: "Game Mechanics",
+  codes: "Codes",
+  controls: "Controls & Settings",
+  community: "Community",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+// 西班牙语分组标题
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Primeros Pasos",
+  combat: "Armas y Combate",
+  maps: "Mapas y Botín",
+  items: "Objetos y Equipo",
+  mechanics: "Mecánicas del Juego",
+  codes: "Códigos",
+  controls: "Controles y Ajustes",
+  community: "Comunidad",
 };
 
-// locale → 分组标题映射
+// 葡萄牙语分组标题
+const GROUP_TITLES_PT: Record<string, string> = {
+  guide: "Primeiros Passos",
+  combat: "Armas e Combate",
+  maps: "Mapas e Saque",
+  items: "Itens e Equipamentos",
+  mechanics: "Mecânicas do Jogo",
+  codes: "Códigos",
+  controls: "Controles e Configurações",
+  community: "Comunidade",
+};
+
+// 德语分组标题
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Erste Schritte",
+  combat: "Waffen & Kampf",
+  maps: "Karten & Beute",
+  items: "Gegenstände & Ausrüstung",
+  mechanics: "Spielmechaniken",
+  codes: "Codes",
+  controls: "Steuerung & Einstellungen",
+  community: "Community",
+};
+
+// locale → 分组标题映射。键集合必须是 routing.locales 的子集，
+// 缺失的语言自动回退到英文 GROUP_TITLES。
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
+  es: GROUP_TITLES_ES,
+  pt: GROUP_TITLES_PT,
+  de: GROUP_TITLES_DE,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
+  es: "Resumen",
+  pt: "Visão Geral",
+  de: "Übersicht",
 };
 
-// 分组排序顺序
+// 分组排序顺序，需与 NAVIGATION_CONFIG 的顺序保持一致
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "combat", "maps", "items", "mechanics", "codes", "controls", "community",
 ];
 
 /**

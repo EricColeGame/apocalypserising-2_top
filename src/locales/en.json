@@ -9,7 +9,15 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "combat": "Combat",
+    "maps": "Maps",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "codes": "Codes",
+    "controls": "Controls",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -450,7 +458,38 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Apocalypse Rising 2 Guide",
+    "overviewDescription": "Start here for Apocalypse Rising 2 guides covering survival basics, loot tiering, loadouts and the tips that keep a fresh spawn alive past the first hour."
+  },
+  "combat": {
+    "overviewTitle": "Apocalypse Rising 2 Combat",
+    "overviewDescription": "Every Apocalypse Rising 2 weapon guide in one place: best guns, gun tier list, snipers and melee weapons ranked by damage, recoil and ammo economy."
+  },
+  "maps": {
+    "overviewTitle": "Apocalypse Rising 2 Maps",
+    "overviewDescription": "Full Apocalypse Rising 2 map breakdowns with loot locations, loot maps, helicopter crash locations and secret locations worth the detour."
+  },
+  "items": {
+    "overviewTitle": "Apocalypse Rising 2 Items",
+    "overviewDescription": "Apocalypse Rising 2 items and gear guides: armor, backpacks, attachments, utilities and cosmetics, with what to keep and what to drop."
+  },
+  "mechanics": {
+    "overviewTitle": "Apocalypse Rising 2 Mechanics",
+    "overviewDescription": "How Apocalypse Rising 2 actually works: vehicles, base building, events, zombies and PvE systems explained with current in-game values."
+  },
+  "codes": {
+    "overviewTitle": "Apocalypse Rising 2 Codes",
+    "overviewDescription": "All working Apocalypse Rising 2 codes plus how to redeem them, what each reward gives and where new codes appear first."
+  },
+  "controls": {
+    "overviewTitle": "Apocalypse Rising 2 Controls",
+    "overviewDescription": "Apocalypse Rising 2 controls, keybinds and settings for PC, mobile and console, including sensitivity and graphics tweaks for smoother fights."
+  },
+  "community": {
+    "overviewTitle": "Apocalypse Rising 2 Community",
+    "overviewDescription": "Apocalypse Rising 2 community hubs: the official Discord, the Reddit community, update notes and trailers collected in one place."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -481,9 +520,9 @@
     "officialYoutube": "YouTube Videos",
     "redditCommunity": "Reddit Community",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "combatGuides": "Weapons & Combat",
+    "mapGuides": "Maps & Loot",
+    "itemsGuides": "Items & Gear",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
